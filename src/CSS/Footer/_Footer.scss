@@ -1,0 +1,57 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 1.25em;
+
+
+    &-paragraph {
+        font-size: 1em;
+        font-weight: 300;
+        text-align: center;
+        color: rgb(33, 35, 38);
+    }
+
+    &-title {
+        font-size: 14px;
+        font-weight: 800;
+        text-align: center;
+        color: rgb(66, 71, 76);
+    }
+
+    &-button {
+        border-radius: 4px;
+        text-align: center;
+        border-bottom-style: solid;
+        border-right-style: solid;
+        background-color: rgb(0, 128, 96);
+        border-color: white;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        font-size: 16px;
+        color: white;
+        font-weight: 700;
+        width: 150px;
+        height: 50px;
+
+
+        &:hover {
+            background-color: rgb(0, 76, 63);
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 25px 0px;
+            transition-duration: 0.15s;
+            transition-timing-function: ease;
+        }
+    }
+
+    &-terms-paragraph {
+        margin-bottom: 0px;
+        color: rgb(0, 128, 96);
+    }
+
+    &-policy-paragraph {
+        margin-top: 0px;
+        color: rgb(0, 128, 96);
+    }
+}

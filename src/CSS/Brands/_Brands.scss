@@ -1,0 +1,27 @@
+.brands {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+
+.logo-soup {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    justify-content: space-evenly;
+    margin-left: -16px;
+    margin-right: -16px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding-top: 32px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 32px;
+    align-items: center;
+    max-width: 1000px;
+    width: calc(100% +32px);
+
+
+
+}
